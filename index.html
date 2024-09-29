@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons8-bíceps-flexionado-32.png" type="image/x-icon">
+    <title>Landing Page - Producto X</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FitPro X <i class="fa-solid fa-dumbbell"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#features">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Consulta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center p-5">
+        <div class="container">
+            <h1 class="display-4">¡Bienvenido a FitPro X!</h1>
+            <p class="lead">El mejor servico para mejorar tu día a día.</p>
+            <a href="#pricing" class="btn btn-primary btn-lg">Comprar Ahora</a>
+        </div>
+    </header>
+
+    <!-- Características -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Propiedaes del Servicio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Descripción</h5>
+                            <p class="card-text">Una app de entrenamiento con rutinas personalizadas, seguimiento de
+                                progresos y conexión con nutricionistas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Características</h5>
+                            <p class="card-text">Rutinas para gimnasio o en casa, seguimiento de calorías, planes de
+                                alimentación personalizados, acceso a entrenadores online.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Garantía de 2 años</h5>
+                            <p class="card-text">Confiamos en nuestro servicio, te damos 2 años de garantía.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precios -->
+    <section id="pricing" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Planes y Precios</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Básico</h5>
+                            <p class="card-text">Rutinas prediseñadas y seguimiento básico.</p>
+                            <p class="price">$19.99/mes</p>
+                            <a href="#" class="btn btn-primary">Elegir Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium</h5>
+                            <p class="card-text">Rutinas personalizadas y consultas con entrenadores/nutricionistas.</p>
+                            <p class="price">$49.99/mes</p>
+                            <a href="#" class="btn btn-primary">Elegir Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Lo que dicen nuestros clientes</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="lead">"FitPro X cambió mi vida. Lo recomiendo al 100%." - Juan P.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="lead">"Increíble calidad y servico. Me encanta!!!" - María B.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="lead">"Vale cada centavo. Estoy encantado con este servico." - Lucas M.</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <a href="#" class="btn btn-primary btn-sm"><</a>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <a href="#" class="btn btn-primary btn-sm">></a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultas -->
+    <section id="contact" class="py-5 mt-5 bg-primary bg-opacity-25">
+        <div class="container text-center">
+            <h2 class="mb-4">¿Tienes alguna pregunta?</h2>
+            <p>¡No dudes en consultarnos!</p>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-1">
+        <p>© 2024 FitPro X - Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
